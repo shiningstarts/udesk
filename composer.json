@@ -1,20 +1,29 @@
 {
   "name": "shiningstarts/udesk",
-  "description": "A PHP SDK for udesk",
   "type": "library",
+  "description": "A PHP SDK for udesk",
   "keywords": [
-    "udesk",
-    "Udesk"
+    "udesk"
   ],
   "license": "MIT",
   "authors": [
     {
-      "name": "shiningstarts",
-      "email": "shiningstarts@qq.com"
+      "name": "shiningstarts"
     }
   ],
-  "minimum-stability": "stable",
   "require": {
     "php": "^7.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Udesk\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0"
+    }
   }
 }
