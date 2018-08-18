@@ -1,0 +1,22 @@
+{
+  "name": "shiningstarts/udesk",
+  "type": "library",
+  "description": "Udesk SDK",
+  "keywords": ["udesk"],
+  "license": "MIT License",
+  "authors": [
+    {
+      "name": "shiningstarts",
+      "email": "shiningstarts@qq.com",
+      "homepage": "https://github.com/shiningstarts"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Udesk\\": "src/"
+    }
+  },
+  "require": {
+  },
+  "minimum-stability": "dev"
+}
