@@ -18,11 +18,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Udesk\\": "src/"
+      "Udesk\\": "src/Udesk/"
     }
   },
   "extra": {
     "branch-alias": {
+      "dev-master": "1.0-dev"
     }
   }
 }
